@@ -6,8 +6,6 @@ body {
 
 h1, h2, p {
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .menu {
@@ -25,6 +23,8 @@ h1 h2 {
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .flavor, .dessert {
