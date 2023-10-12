@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Types</title>
+    <title>Magic Styles</title>
 </head>
 <body>
-    <h1 id="title">Magic Types</h1>
-    <p id="description">Favorite Magic Type</p>
+    <h1 id="title">Magic Styles</h1>
+    <p id="description">Favorite Magic Style</p>
     <form action="post" id="survey-form">
         <fieldset>
             <label id="name-label" for="name">Enter Your Name: <input id="name" type="text" placeholder="enter name" required></label>
             <label id="email-label" for="email">Enter Your Email: <input id="email" type="email" placeholder="enter email" required></label>
         </fieldset>
         <fieldset>
-            <label id="number-label" for="number">Years of Practicing Magic: <input id="number" type="number" min="1" max="140" placeholder="0" /></label>        
+            <label id="number-label" for="number">Years of Practicing Magic: <input id="number" type="number" min="1" max="140" placeholder="0" /></label>
+            <label for="dropdown">Choose Your Favorite Magic Style
+                <select name="dropdown" id="dropdown">
+                    <option value="">(Choose One)</option>
+                    <option value="1">Stage</option>
+                    <option value="2">Parlor </option>
+                    <option value="3">Close-Up</option>
+                    <option value="4">Mentalism</option>
+                    <option value="5">Street</option>
+                </select>        
+            </label>
         </fieldset>
     </form>
 </body>
