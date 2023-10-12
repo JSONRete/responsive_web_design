@@ -10,8 +10,11 @@
     <p id="description">Favorite Magic Type</p>
     <form action="post" id="survey-form">
         <fieldset>
-            <label for="name">Enter Your Name: <input id="name" type="text" required></label>
-            <label for="email">Enter You Email: <input id="email" type="email" required></label>
+            <label id="name-label" for="name">Enter Your Name: <input id="name" type="text" required></label>
+            <label id="email-label" for="email">Enter Your Email: <input id="email" type="email" required></label>
+        </fieldset>
+        <fieldset>
+            <label id="number-label" for="number">Years of Practicing Magic: <input id="number" type="number" min="1" max="140" /></label>        
         </fieldset>
     </form>
 </body>
