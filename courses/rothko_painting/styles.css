@@ -50,4 +50,5 @@
     border-top-right-radius: 25px;
     border-bottom-right-radius: 60px;
     border-bottom-left-radius: 12px;
+    transform: rotate(-0.2deg)
 }
